@@ -23,7 +23,7 @@ const Header = () => {
             <nav className='navbar row'>
                 <div className='col-12 col-md-3'>
                     <div className='navbar-brand'>
-                        <Link to="/" ><img src="../images/Umbrella.png" alt="Tienda de Celulares Logo"></img></Link>
+                        <Link to="/" ><img src="../images/umbrellasoft-logo-web-23.png" alt="Tienda de Celulares Logo"></img></Link>
                     </div>
                 </div>
 

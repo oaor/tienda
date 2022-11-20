@@ -8,9 +8,9 @@ import { ProductDetails } from './components/products/ProductDetails';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Dashboard from './components/admin/Dashboard';
 import ProductsList from './components/admin/ProductsList';
-import NewProduct from './components/admin/NewProduct';
+import NewProduct from './components/admin/newProduct';
 import Cart from './components/cart/Cart';
-import { Login } from './components/user/Login';
+import { Login } from './components/user/login';
 import { Register } from './components/user/Register';
 import { loadUser } from './actions/userActions';
 import store from "./store"
