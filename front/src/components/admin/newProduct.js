@@ -9,7 +9,7 @@ import { newProduct, clearErrors } from '../../actions/productActions'
 import { NEW_PRODUCT_RESET } from '../../constants/productConstants'
 import { useNavigate } from 'react-router-dom'
 
-const NewProduct = () => {
+const newProduct = () => {
     const navigate= useNavigate()
     const [nombre, setNombre] = useState('');
     const [precio, setPrecio] = useState(0);
@@ -21,10 +21,10 @@ const NewProduct = () => {
     const [imagenPreview, setImagenPreview] = useState([])
 
     const categorias = [
-        "Alimento Seco",
+        "Gama Alta",
         "Gama Baja",
         "Accesorios",
-        "Gama Alta",
+        "Gama Media",
         "Plan A",
         "Plan B",
         "Plan C"
@@ -211,4 +211,4 @@ const NewProduct = () => {
     )
 }
 
-export default NewProduct
+export default newProduct
