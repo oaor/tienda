@@ -9,7 +9,7 @@ import { newProduct, clearErrors } from '../../actions/productActions'
 import { NEW_PRODUCT_RESET } from '../../constants/productConstants'
 import { useNavigate } from 'react-router-dom'
 
-const newProduct = () => {
+const NewProduct = () => {
     const navigate= useNavigate()
     const [nombre, setNombre] = useState('');
     const [precio, setPrecio] = useState(0);
@@ -211,4 +211,4 @@ const newProduct = () => {
     )
 }
 
-export default newProduct
+export default NewProduct
